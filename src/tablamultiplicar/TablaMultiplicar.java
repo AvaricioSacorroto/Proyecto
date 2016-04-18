@@ -17,12 +17,13 @@ public class TablaMultiplicar {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        int n, c=0;
+        int c=0;
+        int result;
         System.out.println("Introduce un numero");
         Scanner num= new Scanner(System.in);
-        n=num.nextInt();
+       result=num.nextInt();
         for(c=0;c<=10;c=c+1)
-            System.out.println(n+"*"+c+"="+n*c);
+            System.out.println(result+"*"+c+"="+result*c);
     }
     
 }
