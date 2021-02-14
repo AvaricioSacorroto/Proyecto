@@ -11,17 +11,21 @@ import java.util.Scanner;
 public class Calculator {
 
     public static void multiplication() {
-        String n;
         log.info("Introduce un número: ");
-        Scanner num = new Scanner(System.in);
-        n = num.next();
+        String num = new Scanner(System.in).next();
         for (int i = 0; i <= 10; i++) {
             try {
-                log.info(n + "*" + i + "=" + Integer.parseInt(n) * i);
+                log.info(num + "*" + i + "=" + Integer.parseInt(num) * i);
             } catch (Exception e) {
                 log.error("Puta aprende a leer.");
                 return;
             }
+        }
+    }
+
+    public static void multiplication(int num) {
+        for (int i = 0; i <= 10; i++) {
+            log.info(num + "*" + i + "=" + num * i);
         }
     }
 
