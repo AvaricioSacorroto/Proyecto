@@ -8,7 +8,7 @@ package tablamultiplicar;
 import java.util.Scanner;
 
 /**
- * @author Kevin(K7)
+ * @author Kevin(K7) & David Cacheiro & Héctor Fernández
  */
 public class TablaMultiplicar {
 
@@ -17,15 +17,14 @@ public class TablaMultiplicar {
      */
     public static void main(String[] args) {
         String n;
-        int c = 0;
-        System.out.println("Introduce un numero");
+        System.out.println("Introduce un número: ");
         Scanner num = new Scanner(System.in);
         n = num.next();
-        for (c = 0; c <= 10; c = c + 1) {
+        for (int i = 0; i <= 10; i++) {
             try {
-                System.out.println(n + "*" + c + "=" + Integer.parseInt(n) * c);
+                System.out.println(n + "*" + i + "=" + Integer.parseInt(n) * i);
             } catch (Exception e) {
-                System.out.println("puta aprende a leer");
+                System.out.println("Puta aprende a leer.");
                 return;
             }
         }
