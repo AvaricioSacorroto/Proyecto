@@ -1,5 +1,6 @@
 package logic;
 
+import lombok.experimental.UtilityClass;
 import lombok.extern.slf4j.Slf4j;
 
 import java.util.Scanner;
@@ -8,6 +9,7 @@ import java.util.Scanner;
  * @author Kevin(K7) & David Cacheiro & Héctor Fernández
  */
 @Slf4j
+@UtilityClass
 public class Calculator {
 
     public static void multiplication() {
