@@ -8,7 +8,7 @@ package tablamultiplicar;
 import java.util.Scanner;
 
 /**
- * @author David Cacheiro & Héctor Fernández
+ * @author Kevin(K7) & David Cacheiro & Héctor Fernández
  */
 public class TablaMultiplicar {
 
